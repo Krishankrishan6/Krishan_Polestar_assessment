@@ -59,18 +59,11 @@ test and expect – test tell that particular code is a single test case. Expect
 Commands to run test scripts:
 1.	npx playwright test: Runs all the test cases available under tests directory in headless mode
 2.	npx playwright test <Test case name.spec.js>: Runs a specific test case file in headless mode
-3.	npx playwright test <Test case name.spec.js> --project=<browser name>: Runs a specific test case file in specific browser. Chromium, firefox and webkit are the different browsers available in playwright
+3.	npx playwright test <Test case name.spec.js> --project=<browser name>: Runs a specific test case file in specific browser. Chrome, firefox and webkit are the different browsers available in playwright
 4.	npx playwright test <Test case name.spec.js> --headed: Runs a specific test case file in headed mode
 5.	npx playwright test <Test case name.spec.js> --headed --debug: User will get a extra window called playwright inspector to execute the script line by line
 
 Bonus topics:
 1. Suggestions: I have four suggestions that I came across during my automation flow. I have added a word document under 'Reference documents' folder named 'Technical task progress_suggestion'.
-2. Cross Browser capabilities: Generally Playwright executes tests by default in three browsers like Chromium, firefox and webkit. If we execute the below command we will be able to achieve it.
+2. Cross Browser capabilities: Generally Playwright executes tests by default in three browsers like Chrome, firefox and webkit. If we execute the below command we will be able to achieve it.
 npx playwright test <Test case name.spec.js>
-
-   
-
-
-
-
-
