@@ -1,0 +1,24 @@
+{
+  "name": "krishan_polestar_assessment-1",
+  "version": "1.0.0",
+  "description": "Framework design:\r I have created the playwright framework with javascript using with page object model. This establishes an object repository to hold every web element. It enhances test case management and lessens code duplication.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishankrishan6/Krishan_Polestar_assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krishankrishan6/Krishan_Polestar_assessment/issues"
+  },
+  "homepage": "https://github.com/Krishankrishan6/Krishan_Polestar_assessment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.15.1"
+  }
+}
