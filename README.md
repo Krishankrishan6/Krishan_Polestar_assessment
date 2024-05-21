@@ -7,8 +7,8 @@ Every web page in an application should be viewed as a class file in the Page Ob
 The main objective of using POM is to automate an application even with continuous webelement location changes. When we define a web element location in one place, the change that we have to do in the code will be minimal.
 
 Folder structure:
-Please find the framework design in the below link.
-Link: https://github.com/Krishankrishan6/Krishan_Polestar_assessment/assets/169908261/1427e546-a0c7-49f5-a921-be5f06d35212
+Please find the framework design in the below.
+
 
 <img width="548" alt="image" src="https://github.com/Krishankrishan6/Krishan_Polestar_assessment/assets/169908261/1427e546-a0c7-49f5-a921-be5f06d35212">
 
@@ -54,7 +54,7 @@ await – async and await are related to each other by passing Promise between t
 require – Imports playwright module and modules will be available under node_modules folder
 test and expect – test tell that particular code is a single test case. Expect is to perform assertions and to validate results
 
-![image](https://github.com/Krishankrishan6/Krishan_Polestar_assessment/assets/169908261/4275da3f-186d-4cf0-b88d-ffc1271f19f5)
+<img width="478" alt="image" src="https://github.com/Krishankrishan6/Krishan_Polestar_assessment/assets/169908261/70c29125-787b-4921-9372-6edeabeaea61">
 
 Commands to run test scripts:
 1.	npx playwright test: Runs all the test cases available under tests directory in headless mode
