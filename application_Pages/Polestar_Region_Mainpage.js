@@ -36,5 +36,4 @@ class Polestar_Region_Mainpage
         await (this.availableCarsButton).click();
         await expect(this.availableCarsButton).not.toBeVisible();
     }
-
 }
